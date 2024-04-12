@@ -23,6 +23,10 @@ class MasterOS < Oxidized::Model
   cmd 'show plugins' do |cfg|
     comment cfg
   end
+  
+  cmd 'show ports' do |cfg|
+    comment cfg
+  end
 
   cmd 'show hw-config' do |cfg|
     comment cfg
